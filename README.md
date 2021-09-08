@@ -26,10 +26,10 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 後台功能：新增,修改,刪除,查詢商品與優惠券,管理者登入
 ***
 # 進度：
-目前Vuex進度：
+* 目前Vuex進度：
 已將商品頁面的抓取,購物車的功能,畫面Loading功能轉換成Vuex方式
 接下來會持續練習Vuex,把其餘的頁面及功能都換成Vuex
-9/8 將特定產品頁面改成Vuex
+* 9/8 將特定產品頁面改成Vuex
 ***
 # 使用技術
 * Vue cli3
