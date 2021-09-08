@@ -129,8 +129,8 @@
                     @change="uploadFile"
                   />
                 </div>
+                <div id="message" style="color:red;"></div>
                 <img
-                  img="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=828346ed697837ce808cae68d3ddc3cf&auto=format&fit=crop&w=1350&q=80"
                   class="img-fluid"
                   alt=""
                   :src="tempProduct.imageUrl"
@@ -407,6 +407,7 @@ export default {
             vm.$set(vm.tempProduct, "imageUrl", response.data.imageUrl); //將網址寫入“輸入圖片網址”欄位,做雙向綁定顯示網址
           } else {
             this.$bus.$emit("message:push", response.data.message, "danger");
+            $('#message').html(`${response.data.message}`);
           }
         });
     },

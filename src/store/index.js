@@ -1,7 +1,9 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 import axios from 'axios';
-import $ from 'jquery'
+import $ from 'jquery';
+
+import AlertModule from './alertMessage';
 //彙整所有Vuex行為
 
 Vue.use(Vuex);
@@ -113,5 +115,8 @@ export default new Vuex.Store({
         product(state){
           return state.product;
         },
+    },
+    modules: {
+      AlertModule,
     }
 });
