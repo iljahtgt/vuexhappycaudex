@@ -405,6 +405,7 @@ export default {
             // vm.tempProduct.imageUrl = response.data.imageUrl;
             // console.log(vm.tempProduct);
             vm.$set(vm.tempProduct, "imageUrl", response.data.imageUrl); //將網址寫入“輸入圖片網址”欄位,做雙向綁定顯示網址
+            $('#message').html('上傳成功');
           } else {
             this.$bus.$emit("message:push", response.data.message, "danger");
             $('#message').html(`${response.data.message}`);
