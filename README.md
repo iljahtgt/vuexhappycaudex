@@ -45,3 +45,27 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 * Vue-loading-overlay
 * fontawesome
 * Vue-axios
+
+
+# 登入資訊
+使用下載下來的檔案，並使用npm install安裝完相關套件後，進入網站會從後台的登入頁面進入
+測試帳號：redder1990@hotmail.com
+測試密碼：naoki901214
+![image](https://github.com/iljahtgt/CaudexShop/blob/main/src/index.png)
+
+# 切換到商店頁面
+進入後台管理後可以進行商品及優惠券管理功能
+![image](https://github.com/iljahtgt/vuexhappycaudex/blob/main/forPicture/bs.png)
+點選左邊SideBar的電商平台頁面可以進入商店頁面
+![image](https://github.com/iljahtgt/CaudexShop/blob/main/src/shop.png)
+
+
+# 網站介紹＆畫面
+前台首頁為商品陳列
+![image](https://github.com/iljahtgt/vuexhappycaudex/blob/main/forPicture/product.png)
+點選有興趣的商品可以打開個別的資訊欄位
+![image](https://github.com/iljahtgt/vuexhappycaudex/blob/main/forPicture/signle.png)
+
+進入商店頁面後可以進行依類別尋找不同種類的植物，觀看詳細內容，加入購物車，結帳頁面，套用優惠券等功能
+套用優惠券碼可以輸入：80%套用8折優惠
+https://github.com/iljahtgt/vuexhappycaudex/blob/main/forPicture/order.png)
