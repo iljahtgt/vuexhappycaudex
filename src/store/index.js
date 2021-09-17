@@ -72,7 +72,7 @@ export default new Vuex.Store({
             //   console.log(id);
             axios.get(api).then((response) => {
               // console.log(response.data.product);
-              context.commit('PRODUCT', response.data.products);
+              context.commit('PRODUCT', response.data.product);
               $("#seeNoteModal").modal("show");
               context.commit('LOADING', false);
             });

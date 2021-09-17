@@ -173,7 +173,7 @@
           role="dialog"
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
-           v-for="(product) in filterData" :key="product.id"
+          v-model="product"
         >
           <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content border-0">
