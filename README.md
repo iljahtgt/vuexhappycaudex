@@ -68,4 +68,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 進入商店頁面後可以進行依類別尋找不同種類的植物，觀看詳細內容，加入購物車，結帳頁面，套用優惠券等功能
 套用優惠券碼可以輸入：80%套用8折優惠
-https://github.com/iljahtgt/vuexhappycaudex/blob/main/forPicture/order.png)
+![image](https://github.com/iljahtgt/vuexhappycaudex/blob/main/forPicture/order.png)
